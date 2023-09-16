@@ -14,4 +14,5 @@ Just storing some of my own python functions, seaborn styles and whatever comes 
 
         python3 -m pysetup install  
 
-4. in promt enter base name of <yourfile>.py  you can also replace 'install' with 'develop' to continue editing the file  
+4. in prompt enter base name of 'yourModule.py'  
+you can also replace 'install' with 'develop' to continue editing the file  
