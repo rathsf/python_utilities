@@ -1,4 +1,4 @@
-# My python utility collection
+# My dynamic python utility collection
 
 Just storing some of my own python functions, seaborn styles and whatever comes along
 
