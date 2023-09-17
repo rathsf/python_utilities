@@ -1,4 +1,4 @@
-dgrey = '0.8'
+dgrey = '0.2'
 lgrey = '0.65'
 
 rcDict = {'figure.figsize':(9,6),
