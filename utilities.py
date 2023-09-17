@@ -56,3 +56,5 @@ def reorder(df, first_cols = [], last_cols = []):
         print(f'Heads Up, you requested duplicate colums: {dupes}')
             
     return df[first_cols + list(df.drop(columns = first_cols + last_cols)) + last_cols]
+
+some_variable = []
