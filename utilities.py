@@ -1,4 +1,4 @@
-dgrey = '0.2'
+dgrey = '0.8'
 lgrey = '0.65'
 
 rcDict = {'figure.figsize':(9,6),
@@ -56,5 +56,3 @@ def reorder(df, first_cols = [], last_cols = []):
         print(f'Heads Up, you requested duplicate colums: {dupes}')
             
     return df[first_cols + list(df.drop(columns = first_cols + last_cols)) + last_cols]
-
-some_variable = []
