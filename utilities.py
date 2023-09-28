@@ -101,3 +101,24 @@ style = theme(
 #     legend_background = element_blank(),
 #     strip_background  = element_blank(),
 #     )
+
+
+
+# import patchworklib as pw
+# from plotnine import *
+# from plotnine.data import *
+
+# g1 = (ggplot(mtcars) + geom_point(aes("mpg", "disp")) + utl.style + theme(figure_size=[3,3]))
+# g2 = (ggplot(mtcars) + geom_boxplot(aes("gear", "disp", group = "gear")) + utl.style + theme(figure_size=[3,3]))
+# g3 = (ggplot(mtcars, aes('wt', 'mpg', color='factor(gear)')) + geom_point() + stat_smooth(method='lm') + facet_wrap('~gear'))
+# g4 = (ggplot(data=diamonds) + geom_bar(mapping=aes(x="cut", fill="clarity"), position="dodge"))
+
+# g1 = pw.load_ggplot(g1, figsize=(2,3))
+# g2 = pw.load_ggplot(g2, figsize=(2,3))
+# g3 = pw.load_ggplot(g3, figsize=(3,3))
+# g4 = pw.load_ggplot(g4, figsize=(5,2))
+
+##g1234 = (g1|g2)
+##g1234.savefig()
+
+##print(g1, g2)
