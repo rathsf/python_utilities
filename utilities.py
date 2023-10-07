@@ -86,23 +86,19 @@ style = theme(
     strip_background  = element_blank()
     )
 
-# style_dark = theme(
-#     text              = element_text(family = 'Droid Sans', size = 10, color = "#ABB2BF"),
-#     title             = element_text(size = 18, face = 'bold'),
-#     axis_title        = element_text(size = 10, face = 'bold'),
-#     legend_title      = element_text(size = 12, face = 'bold'),
-#     axis_text         = element_text(color = 'grey'),
-#     strip_text        = element_text(face = 'bold'),
-#     axis_ticks_major  = element_line(color = 'grey'),
-#     legend_key        = element_blank(),
-#     panel_border      = element_rect(fill  = 'white', color = 'grey', size = 1),
-#     panel_grid_major  = element_blank(),
-#     panel_grid_minor  = element_blank(),
-#     plot_background   = element_rect(fill = '#24272e', color = 'none'),
-#     panel_background  = element_rect(fill = 'white'),
-#     legend_background = element_blank(),
-#     strip_background  = element_blank(),
-#     )
+dark = (style + theme(
+    text              = element_text(color = '#ABB2BF'),
+    axis_text         = element_text(color = '#ABB2BF'),
+    axis_ticks_major  = element_line(color = '#ABB2BF'),
+    panel_border      = element_rect(fill = '#ABB2BF', color = 'grey', size = 1),
+    panel_grid_major  = element_blank(),
+    panel_grid_minor  = element_blank(),
+    plot_background   = element_rect(fill = '#292c33'),
+    panel_background  = element_rect(fill = '#1e2125'),
+    legend_background = element_blank(),
+    strip_background  = element_blank()
+    )
+    )
 
 
 
