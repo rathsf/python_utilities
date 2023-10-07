@@ -82,6 +82,13 @@ mode20 = ['#9473ae', '#f19900', '#37b067', '#d15d58', '#6296bc',
           '#cef2df', '#eedebe', '#7db8b9', '#ebc7e8', '#dac1b1',
           ]
 
+mode20b= ['#8a6cae', '#f7cf4a', '#76ccb6', '#d15d58', '#6296bc', 
+          '#f19900', '#37b067', '#376c72', '#a84680', '#a17b64', 
+          '#c5b3e8', '#bbe2ad', '#ffac97', '#cef2df', '#d48ad4',
+          '#7db8b9', '#d4bbac', '#b7e0e6', '#ebcae8', '#eedebe',
+          ]
+
+
 gemstone = ['#bcc7ee', '#8263b1', '#6fe3d4', '#00c7ad', 
          '#f19900', '#c75e0c', '#b1abb4', '#8b6f8b', 
          '#96bbba', '#4b877a']
