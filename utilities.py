@@ -68,6 +68,24 @@ palD3 = ['#1F77B4FF', '#FF7F0EFF', '#2CA02CFF', '#D62728FF',
          '#98DF8AFF', '#FF9896FF', '#C5B0D5FF', '#C49C94FF', 
          '#F7B6D2FF', '#C7C7C7FF', '#DBDB8DFF', '#9EDAE5FF']
 
+adobe = ['#0fb5ae', '#4046ca', '#f68511', '#de3d82', 
+         '#7e84fa', '#72e06a', '#147af3', '#7326d3', 
+         '#e8c600', '#cb5d00', '#008f5d', '#bce931']
+
+custom = ['#9467bd', '#7fd7c1', '#e88b00', '#d9739e', 
+         '#68b0cf', '#008f5d', '#d13e38', '#2777b4', 
+         '#72e06a', '#9f765e', '#008f5d', '#bce931']
+
+mode20 = ['#9473ae', '#f19900', '#37b067', '#d15d58', '#6296bc', 
+          '#85ccba', '#f7cf4a', '#376c72', '#d48ad4', '#9f765e', 
+          '#c7c1d1', '#ffc097', '#bbe2ad', '#808080', '#b7e0e6',
+          '#cef2df', '#eedebe', '#7db8b9', '#ebc7e8', '#dac1b1',
+          ]
+
+gemstone = ['#bcc7ee', '#8263b1', '#6fe3d4', '#00c7ad', 
+         '#f19900', '#c75e0c', '#b1abb4', '#8b6f8b', 
+         '#96bbba', '#4b877a']
+
 style = theme(
     text              = element_text(family = 'Droid Sans', size = 10, color = '0.15'),
     title             = element_text(size = 18, face = 'bold'),
