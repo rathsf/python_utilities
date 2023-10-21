@@ -52,6 +52,10 @@ rcDict = {
     }
 
 
+pltRows = ['P', 'O', 'N', 'M', 'L', 'K', 'J', 'I', 'H', 'G', 'F', 'E', 'D', 'C', 'B', 'A']
+pltCols = [str(x).zfill(2) for x in list(range(1, 25))]
+
+
 def reorder(df, first_cols=[], last_cols=[]):
     """Move requested columns to the first and last indices"""
 
