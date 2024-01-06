@@ -17,3 +17,5 @@ Just storing some of my own python functions, seaborn styles and whatever comes 
 
 4. in prompt enter base name of 'yourModule.py'  
 you can also replace 'install' with 'develop' to continue editing the file  
+
+test
